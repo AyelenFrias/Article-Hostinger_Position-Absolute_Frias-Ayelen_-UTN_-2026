@@ -154,6 +154,10 @@ body {
 
 }
 
+.oculto {
+    display: none;
+}
+
 .texto-final {
     text-align: center;
     margin: 8px 0px 0px;
