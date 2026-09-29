@@ -105,8 +105,8 @@ body {
     border: 1px solid #18181a;
     background-color: #fff;
         
-    padding-left: 3px;
-    padding-right: 3px;
+    padding-left: 15px;
+    padding-right: 95px;
     width: 700px;
     height: 50px;
     
@@ -115,6 +115,7 @@ body {
 
 .barra-texto label {
     color: transparent;
+    
 }
 
 .barra-texto input {
@@ -139,7 +140,7 @@ body {
     background-color: var(--success-color-bnt);
      
     position: absolute;
-    right: 30px;
+    right: 10px;
     top: 3px;
     border: none;
     border-radius: 12px;
@@ -152,7 +153,7 @@ body {
 
 .flechita {
     position: absolute;
-    right: 40px;
+    right: 20px;
     top: 10px;
     color: #fff;    
 
