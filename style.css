@@ -26,8 +26,7 @@ body {
    background-color: var(--success-background-color);
     
     min-height: 100vh;
-    margin-top: 200px;
-        padding: 50px 50px;
+    padding: 50px 50px;
 
     
 }
@@ -87,16 +86,27 @@ body {
 
 }
 
+.barra-padre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+
 .barra-texto {
     display: flex;
     align-items: center;
+    text-align: left;
+    justify-content: center;
     border-radius: 10px;
     border: 1px solid #18181a;
-    
+    background-color: #fff;
+        
     padding-left: 3px;
     padding-right: 3px;
-    position: relative;
-
+    width: 700px;
+    height: 50px;
+    
 
 }
 
@@ -106,33 +116,47 @@ body {
 
 .barra-texto input {
     flex: 1;
+    text-align: left;
     background: transparent;
     border: none;
     outline: none;
-    color: var(--success-color2)
+    color: var(--success-color2);
+    
 
 }
 
 .barra-texto input::placeholder {
-    display: flex;
-    flex: 1;    
-    text-align: start;
+    text-align: left;
     opacity: 1;
 
 }
 
 .btn {
     background-color: var(--success-color-bnt);
-    display: flex;
-    justify-content: end;
- 
-    margin-top: 50px;
-    margin-bottom: 50px;
+     
+    position: absolute;
+    right: 30px;
+    top: 3px;
     border: none;
     border-radius: 12px;
     cursor: pointer;
     width: 42px;
     height: 42px;
-    position: absolute;
+      
         
+}
+
+.flechita {
+    position: absolute;
+    right: 40px;
+    top: 10px;
+    color: #fff;    
+
+}
+
+.texto-final {
+    text-align: center;
+    margin: 8px 0px 0px;
+    font-size: 14px;
+
 }
